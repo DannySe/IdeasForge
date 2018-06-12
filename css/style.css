@@ -9,18 +9,24 @@
     color: white;
 }
 .link:hover {
-    color: #FF6200 !important;
+    color: rgb(243, 69, 39) !important;
 }
 
-.default_color{background-color: #00D1A2 !important}
+.idea {
+    transform: rotate(180deg);
+}
 
-.default_color_darken{background-color: #00AB85 !important}
+.bg_color{background-color: rgb(32, 54, 71) !important}
 
-.default_color_text{color: #00D1A2 !important}
+.default_color{background-color: white !important}
 
-.secondary_color{background-color: #FF6200 !important}
+.default_color_darken{background-color: rgb(32, 54, 71) !important}
 
-.secondary_color_text{color: #FF6200 !important}
+.default_color_text{color: black !important}
+
+.secondary_color{background-color: rgb(243, 69, 39) !important}
+
+.secondary_color_text{color: rgb(243, 69, 39) !important}
 
 .icon-block {
     padding: 0 15px;
@@ -39,10 +45,10 @@
 #intro, #work, #team {padding-top: 4rem;}
 
 #index-banner {
-    min-height: 632px;
-    max-height: 864px;
+    min-height: 250px;
+    max-height: 400px;
     position: relative;
-    background-color: #00D1A2;
+    background-color: rgb(32, 54, 71);
 }
 
 #nav_f{
@@ -64,7 +70,7 @@
 
 .brand-logo{
     position: absolute;
-    color: #fff;
+    color: black !important;
     display: inline-block;
     font-size: 2.1rem;
     font-style: normal;
@@ -73,22 +79,49 @@
     letter-spacing: 7px;
 }
 
+.spacer {
+    width: 100%;
+    height: 80px;
+    max-height: 160px;
+}
+
+.spacer2 {
+    padding: 100px;
+}
+
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
 
-.span_h2 {font-weight: 300;color: #FF6200;}
+.span_h2 {font-weight: 400; color: rgb(243, 69, 39); }
 
-.text_b{color: #FF6200;}
+.text_b{color: rgb(243, 69, 39);}
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
+.promo_headline {
+    font-weight: 800;
+}
+
+.parallax_headline {
+    font-weight: 300;
+}
+
 .promo i {
-    color: #FF6200;
+    color: rgb(243, 69, 39);
     font-size: 7rem;
     display: block;
 }
-.card-content a {color: #FF6200;}
 
-.card-content a:hover {color: #FF6200;}
+.step {
+    color: rgb(243, 69, 39);
+    font-size: 8rem;
+    font-weight: 150;
+    display: block;
+    font-family: serif;
+}
+
+.card-content a {color: rgb(243, 69, 39);}
+
+.card-content a:hover {color: rgb(243, 69, 39);}
 
 #work, #team{background: rgb(247, 247, 247);}
 
@@ -96,7 +129,7 @@
 
 nav ul a {
     font-size: 1.2rem;
-    color: #FFF;
+    color: black;
     letter-spacing: 2px;
     display: block;
     font-weight: 300;
@@ -139,7 +172,7 @@ nav ul a {
 }
 
 .cd-headline.type .cd-words-wrapper.selected b {
-    color: #FF6200;
+    color: rgb(243, 69, 39);
 }
 
 .cd-headline.type b {
@@ -289,4 +322,9 @@ nav a.button-collapse {
 
 footer.page-footer {
     margin-top: 0px !important;
+}
+
+.resizable {
+    width:100%; /* you can use % */
+    height: auto;
 }
