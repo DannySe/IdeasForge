@@ -3,7 +3,9 @@
 
     $('.button-collapse').sideNav();
 	$('.scrollspy').scrollSpy();
+	$('.carousel.carousel-slider').carousel({fullWidth: true});
 
+	
     /*** Animate word ***/
 
     //set animation timing
