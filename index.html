@@ -8,8 +8,8 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
     <!-- CSS  -->
-    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
-    <link href="min/custom-min.css" type="text/css" rel="stylesheet">
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body id="top" class="scrollspy">
@@ -30,26 +30,26 @@
             <div class="nav-wrapper">
              <a href="/#"><img class="responsive-img logo-nav-image hide-on-med-and-down" src="img/ideasforge.png" /></a>
             <a href="#" id="logo-container" class="brand-logo">IdeasForge</a>
-                
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="./#howto">How it works</a></li>
                     <li><a href="./#subscribe">Subscribe</a></li>
                     <li><a href="/partner.html">For Partner</a></li>
                     <li><a href="/imprint.html">Imprint</a></li>
                 </ul>
-                <ul id="nav-mobile" class="side-nav">
-                    <li><a href="/#"><img class="responsive-img logo-nav-image" src="img/ideasforge.png" /></a>
-                    </li>
+                <ul class="sidenav" id="mobile-demo">
                     <li><a href="./#howto">How it works</a></li>
                     <li><a href="./#subscribe">Subscribe</a></li>
                     <li><a href="/partner.html">For Partner</a></li>
                     <li><a href="/imprint.html">Imprint</a></li>
                 </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
         </div>
     </nav>
 </div>
+
 
 <!--Hero-->
 <div class="section no-pad-bot  valign-wrapper" id="index-banner">
@@ -96,7 +96,7 @@
                 <div class="center promo promo-example">
                     <!-- <i class="mdi-maps-local-florist"></i> -->
                     <div class="step">3</div>
-                    <h5 class="promo-caption promo_headline">Enjoy the benifits</h5>
+                    <h5 class="promo-caption promo_headline">Get benifits</h5>
                     <p class="light center">Get support from well-known companies and partner organisations. From assistance in creating 
                         a business plan to free office space - everything is possible! </p>
                 </div>
@@ -106,8 +106,9 @@
 </div>
 
 <!--Parallax-->
+
 <div class="parallax-container">
-    <div class="parallax"><img class="bg_color resizable" src="img/parallax1.jpg"></div>
+    <div class="parallax"><img class="resizable" src="img/parallax1.jpg"></div>
 </div>
 
 <div class="container spacer2">
@@ -211,7 +212,9 @@
     <!--  Scripts-->
     <!-- <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script> -->
-    <script src="js/jquery-2.1.1.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
     <script src="js/modernizr.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="js/init.js"></script>

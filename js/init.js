@@ -1,10 +1,20 @@
 (function($){
   $(function(){
 
-    $('.button-collapse').sideNav();
-	$('.scrollspy').scrollSpy();
-	$('.carousel.carousel-slider').carousel({fullWidth: true});
 
+	$(document).ready(function(){
+		$('.sidenav').sidenav();});
+	$('.scrollspy').scrollSpy();
+
+	$(document).ready(function(){
+		$('.slider').slider({
+			height: 650
+		});
+	});
+
+	$(document).ready(function(){
+		$('.parallax').parallax();
+	  });
 	
     /*** Animate word ***/
 
@@ -159,12 +169,10 @@
 		$newWord.removeClass('is-hidden').addClass('is-visible');
 	}
 
-	$('.button-collapse').sideNav({
-		menuWidth: 240, // Default is 240
-		closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-	});
-
-	$('.parallax').parallax();
+	// $('.button-collapse').sideNav({
+	// 	menuWidth: 240, // Default is 240
+	// 	closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+	// });
 
 	var card  = document.querySelectorAll('.card-work');
   	var transEndEventNames = {

@@ -8,8 +8,8 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
     <!-- CSS  -->
-    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
-    <link href="min/custom-min.css" type="text/css" rel="stylesheet">
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body id="top" class="scrollspy">
@@ -24,31 +24,30 @@
 </div>
 
 <!--Navigation-->
- <div class="navbar-fixed">
-    <nav id="nav_f" class="default_color" role="navigation">
-        <div class="container">
-            <div class="nav-wrapper">
-             <a href="/#"><img class="responsive-img logo-nav-image hide-on-med-and-down" src="img/ideasforge.png" /></a>
-            <a href="#" id="logo-container" class="brand-logo">IdeasForge</a>
-                
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="./#howto">How it works</a></li>
-                    <li><a href="./#subscribe">Subscribe</a></li>
-                    <li><a href="/partner.html">For Partner</a></li>
-                    <li><a href="/imprint.html">Imprint</a></li>
-                </ul>
-                <ul id="nav-mobile" class="side-nav">
-                	<li><a href="/#"><img class="responsive-img logo-nav-image" src="img/ideasforge.png" /></a>
-                	</li>
-                    <li><a href="./#howto">How it works</a></li>
-                    <li><a href="./#subscribe">Subscribe</a></li>
-                    <li><a href="/partner.html">For Partner</a></li>
-                    <li><a href="/imprint.html">Imprint</a></li>
-                </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+<div class="navbar-fixed">
+        <nav id="nav_f" class="default_color" role="navigation">
+            <div class="container">
+                <div class="nav-wrapper">
+                 <a href="/#"><img class="responsive-img logo-nav-image hide-on-med-and-down" src="img/ideasforge.png" /></a>
+                <a href="#" id="logo-container" class="brand-logo">IdeasForge</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="/index.html">How it works</a></li>
+                        <li><a href="./#subscribe">Subscribe</a></li>
+                        <li><a href="/partner.html">For Partner</a></li>
+                        <li><a href="/imprint.html">Imprint</a></li>
+                    </ul>
+                    <ul class="sidenav" id="mobile-demo">
+                        <li><a href="/index.html">How it works</a></li>
+                        <li><a href="./#subscribe">Subscribe</a></li>
+                        <li><a href="/partner.html">For Partner</a></li>
+                        <li><a href="/imprint.html">Imprint</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 </div>
 
 
@@ -69,32 +68,97 @@
 
  <!--Parallax-->
  <div class="parallax-container">
-    <div class="parallax"><img class="default_color" src="img/partnerlax1.png"></div>
+    <div class="parallax"><img class="default_color resizable" src="img/partnerlax1.jpg"></div>
+</div>
+
+<div class="container spacer2">
+        <div class="row">
+            <div  class="col s12">
+                <h2 class="center header text_h2 parallax_headline">How can I help?</h2>
+            </div>
+            <div class="center promo promo-example">
+                <h5 class="light center">There are many ways to make dreams of young talents come true. You can help <span class="text_h22">financially</span> or by providing
+                    <span class="text_h22">office space</span> for free. You can make <span class="text_h22">workshops</span> to help students come up with a business plan or support them by <span class="text_h22">mentoring</span> 
+                    thier attempts in launching a startup. Kick-start their project by being the first one to <span class="text_h22">purchase their products or services</span>, or 
+                    show your support by <span class="text_h22">promoting them with your logo</span>. Don't like any of these options? Come up with your own!</h5>
+            </div>
+        </div>
+</div>
+
+<!--Spacer-->
+<div class="spacer bg_color"></div>
+
+<div class="container spacer2">
+        <div class="row">
+            <div  class="col s12">
+                <h2 class="center header text_h2 parallax_headline">What kinds of projects can I expect?</h2>
+            </div>
+            <div class="center promo promo-example">
+                    <h5 class="light center">Innovative, inspiring, socially significant. Motivation which students put into their projects and the hard 
+                        work they are ready to invest into something they enjoy has no limits. So the result is truly beautiful. Browse through some of
+                        our showcase projects below and see it for yourself! </h5>
+            </div>
+        </div>
 </div>
 
 <!--Carousel-->
-<div class="carousel carousel-slider center" data-indicators="true">
-    <div class="carousel-fixed-item center">
-      <a class="btn waves-effect white grey-text darken-text-2">button</a>
-    </div>
-    <div class="carousel-item red white-text" href="#one!">
-      <h2>First Panel</h2>
-      <p class="white-text">This is your first panel</p>
-    </div>
-    <div class="carousel-item amber white-text" href="#two!">
-      <h2>Second Panel</h2>
-      <p class="white-text">This is your second panel</p>
-    </div>
-    <div class="carousel-item green white-text" href="#three!">
-      <h2>Third Panel</h2>
-      <p class="white-text">This is your third panel</p>
-    </div>
-    <div class="carousel-item blue white-text" href="#four!">
-      <h2>Fourth Panel</h2>
-      <p class="white-text">This is your fourth panel</p>
-    </div>
-  </div>
+<div class="slider carousel_stack">
+        <ul class="slides">
+          <li>
+            <a href="https://sgfaweb.wordpress.com/">
+                <img src="img/sgfat.png"> <!-- random image -->
+            </a>
+            <div class="caption center-align">
+              <h3>Souls Gathering</h3>
+              <h5 class="light grey-text text-lighten-3">Cooperative multiplayer game</h5>
+            </div>
+          </li>
+          
+          <li>
+            <a href="https://empowering.zone/">
+                <img src="img/socio.png"> <!-- random image -->
+            </a>
+            <div class="caption left-align">
+                <h2>Socio</h2>
+                <h4 class="light grey-text text-lighten-3">Gamified education platform</h4>
+            </div>
+          </li>
+          <li>
+            <a href="https://empowering.zone/">
+                <img src="img/react2.png"> <!-- random image -->
+            </a>
+            <div class="caption right-align">
+              <h2 class="default_color_text">React</h2>
+              <h4 class="light default_color_text text-lighten-3">Location-based AR game</h4>
+            </div>
+          </li>
+          <li>
+            <img src="img/cometogether.png"> <!-- random image -->
+            <div class="caption center-align">
+              <h2>ComeTogether</h2>
+              <h4 class="light grey-text text-lighten-3">Gamified education platform</h4>
+            </div>
+          </li>
+        </ul>
+      </div>
 
+<div class="spacer default_color"></div>
+
+<!--Survey-->
+<div id="subscribe" class="section scrollspy">
+        <div class="container">
+            <div class="row">
+                <div  class="col s12">
+                    <h2 class="center header text_h2"> Interested in IdeasForge? Then leave us your contacts to
+                    get <span class="span_h2">news about the project!</span> </h2>
+                </div>
+            </div>
+            <div class="row">
+                  <div class="col s12 center"><a class="waves-effect waves-light btn-large secondary_color" href="https://docs.google.com/forms/d/e/1FAIpQLSeqeQk0UJKOA_h35r-bMLBQQpWmbaSfre7hd3fpwn5Qyi0o6g/viewform?usp=sf_link">Subscribe for news</a></div>
+                
+            </div>
+        </div>
+    </div>
 
 <!--Footer-->
 <footer class="page-footer bg_color" id="contact">
@@ -128,7 +192,8 @@
     <!--  Scripts-->
     <!-- <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script> -->
-    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>    
     <script src="js/modernizr.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="js/init.js"></script>
